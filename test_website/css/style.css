@@ -1,0 +1,295 @@
+/* GENERAL START */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-image: url('../images/header_background.jpg');
+  text-align: center;
+  padding: 35px 0 175px;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+  color: #F0F0F0;
+  margin-bottom: 75px;
+  line-height: 70px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+h4 {
+  color: #0F4C92;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* GENERAL END */
+
+/* HEADER START */
+
+.header_info {
+  color: #F0F0F0;
+}
+
+.logotype {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  margin-bottom: 225px;
+}
+
+.btn {
+  background-color: #FF9728;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 30px;
+  font-size: 21px;
+  cursor: pointer;
+  color: #fff; 
+  margin-top: 30px;
+}
+
+/* HEADER END */
+
+/* INFO START */
+
+.info {
+  text-align: center;
+  background-color: #DEF0FF;
+  padding: 120px;
+}
+
+.container__info {
+  font-size: 40px;
+  color: #0F4C92;
+  width: 745px;
+  margin: 0 auto;
+}
+
+.passage__info {
+  color: #0F4C92;
+  font-size: 18px;
+}
+
+/* INFO END */
+
+/* ADVANTAGES START */
+
+.advantages {
+  padding-top: 85px 0 100px;
+  background: #F2F9FF
+}
+
+.advantages__blocks {
+  /* border: 5px solid green; */
+  width: 1196px;
+  margin: 0 auto;
+}
+
+.advantage__block {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.advantage__description {
+  padding-left: 80px;
+  padding-top: 65px;
+}
+
+.advantage__block img {
+  width: 585px;
+  height: 580px;
+  border-radius: 20px;
+}
+
+.advantage__block:nth-child(2) img {
+  order: 1;
+}
+
+.advantage__block:nth-child(2) .advantage__description {
+  padding-left: 0;
+  padding-right: 80px;
+}
+
+.advantage__description p {
+  color: 1B1B1B;
+  margin-top: 40px;
+}
+
+.date {
+  font-size: 20px;
+  line-height: 23px;
+  color: 1B1B1B;
+  margin-top: 20px;
+}
+
+.date span{
+  font-weight: bold;
+}
+
+.date p{
+  font-size: 18px;
+  color: #1B1B1B;
+}
+
+.more__info {
+  font-size: 21px;
+  line-height: 24.5px;
+  color: #FFFFFF;
+  background-color: #0D599C;
+  border: none;
+  padding: 15px 70px;
+  border-radius: 45px;
+  margin-top: 40px;
+}
+/* ADVANTAGES END */
+
+/* ORDER START  */
+
+.order {
+  background-color: #B5E4FF;
+  padding: 98px;
+
+}
+
+.container__order {
+  background-color: #2B477C;
+  margin: 0 auto;
+  width: 785px;
+  box-sizing: border-box;
+  padding: 60px 60px 30px 60px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container__order h2 {
+  color: #F4F4F4;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.info__order {
+  color: #F4F4F4;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.order__btn {
+  width: 260px;
+}
+
+/* ORDER END  */
+
+/* FORM START */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.callback-form {
+  background: linear-gradient(327.75deg, #0080BF 9.35%, #00496C 117.99%);
+  border-radius: 50px;
+  padding: 100px 80px 50px;
+}
+
+.callback-form h2{
+  color: #F9F9F9;
+  font-size: 40px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.callback-form input[type="text"] {
+  width: 350px;
+  border: 1px solid #F7F6F6;
+  background-color: transparent;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.callback-form input:first-child {
+  margin-right: 15px;
+}
+
+.callback-form input::placeholder {
+  font-size: 18px;
+  color: #B2E3FF;
+}
+
+.callback-form .callback-form__btn {
+  width: 190px;
+  display: block;
+  margin: 0 auto;
+}
+/* FORM END */
+
+/* MAP START  */
+
+.map__section h2{
+  color: #0F4C92;
+  text-align: center;
+  font-size: 40px;
+  margin: 75px 0;
+}
+
+.map {
+  width: 100%;
+  height: 355px;
+}
+
+/* MAP END  */
+
+/* CONTACT START */
+.contacts {
+  background-color: #0B83BE;
+}
+
+.logotype__contacts {
+  width: 330px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.container__contacts p {
+  color:#F0F0F0;
+  text-align: center;
+}
+
+.info__contacts{
+  padding-bottom: 115px;
+}
+
+.ad__contacts {
+  padding-bottom: 90px;
+}
+
+.mail {
+  color: #F0F0F0;
+  text-decoration: none;
+}
+/* CONTACT END */
